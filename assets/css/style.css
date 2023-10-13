@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Teko:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Teko', sans-serif;
+}
+
+.bg-desktop {
+    background-image: url("../img/desktop.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.bg-mobile {
+    background-image: url("../img/mobile.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.card {
+     /* Ajoute de l'espace à droite de chaque carte */
+    transition: all 0.3s;
+}
+  
+.card:last-child {
+    margin-right: 0; /* Enlève la marge de la dernière carte pour éviter un espace vide à la fin */
+}
+  
+
+.card:hover {
+    transform: scale(1.15);
+}
+
+/* .four {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.realisations {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.realisations h2 {
+    padding: 50px;
+    color: #eda432;
+
+}
+
+.realisation {
+    width: 22%;
+    padding: 1%;
+
+}
+
+.presentation {
+    width: 100%;
+    display: flex;
+}
+
+.presentationtxt {
+    padding: 200px;
+    background-color: #eda432;
+    color: white;
+    width: 50%;
+}
+.choiceimg {
+    padding: 200px;
+    width: 50%;
+    background: url('https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+} */
