@@ -8,7 +8,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="../../assets/css/style.css">
 </head>
 
 <body>
@@ -18,7 +18,7 @@
     <nav class="navbar navbar-expand-lg bg-dark bg-gradient navbar-dark">
       <div class="container">
         <a class="navbar-brand" href="#">
-          <img src="assets/img/logo.png" alt="Logo SBTR">
+          <img src="../../assets/img/logo.png" alt="Logo SBTR">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,16 +30,16 @@
               <a class="nav-link active" aria-current="page" href="#">Accueil</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="societe.php">La société</a>
+              <a class="nav-link" href="../../controllers/controller_society.php">La société</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="projets.php">Projets réalisés</a>
+              <a class="nav-link" href="../../controllers/controller_projects.php">Projets réalisés</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="devis.php">Demande devis</a>
+              <a class="nav-link" href="../../controllers/controller_quote_form.php">Demande devis</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.php">Contact</a>
+              <a class="nav-link" href="../../controllers/controller_contact.php">Contact</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#"><i class="bi bi-facebook"></i></a>

@@ -1,6 +1,7 @@
 <?php
-require "models/Quote.php";
-require "helpers/Database.php";
+require "../models/Quote.php";
+require "../helpers/Database.php";
+require "../views/quote_form.php";
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Récupérer les données du formulaire
@@ -34,7 +35,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         // Mettre à jour le devis
         $updateQuote = updateQuote($db, $quote_id);
         if ($updateQuote) {
-            header('Location: ../confirmation.php');
+            header('Location: ../views/confirmation.php');
             exit();
         } else {
             echo "Erreur lors de la mise à jour du devis.";

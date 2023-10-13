@@ -9,7 +9,7 @@ h1, h2, h3, h4 {
 }
 
 .bg-desktop {
-    background-image: url("../img/desktop.jpg");
+    background-image: url("../../assets/img/desktop.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -17,7 +17,7 @@ h1, h2, h3, h4 {
 }
 
 .bg-mobile {
-    background-image: url("../img/mobile.jpg");
+    background-image: url("../../assets/img/mobile.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;

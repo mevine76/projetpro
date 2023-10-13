@@ -1,3 +1,5 @@
+<?php include_once 'templates/head.php'; ?>
+
 <section  class=" bg-warning bg-gradient">
 
     <div class="devis">
@@ -8,7 +10,7 @@
         <h2 class="display-3 fw-bold">Demande de devis</h2>
 
         <div class="mb-3">
-          <form action="../controllers/controller_quote.php" method="POST">
+          <form action="../controllers/controller_quote_form.php" method="POST">
 
             <div class="row">
               <div class="col">
@@ -62,3 +64,7 @@
 
     </div>
   </section>
+
+
+
+  <?php include_once 'templates/footer.php'; ?>
