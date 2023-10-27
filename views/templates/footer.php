@@ -1,7 +1,7 @@
 <!-- Remove the container if you want to extend the Footer to full width. -->
 
 
-<footer class="bg-dark bg-gradient text-center text-lg-start text-white">
+<footer class="bg-dark text-center text-lg-start text-white">
   <!-- Grid container -->
   <div class="container p-4">
     <!--Grid row-->
@@ -10,8 +10,7 @@
       <div class="col-lg-3 col-md-6 mb-4 mb-md-0 text-center">
 
         <div class="rounded-circle bg-white d-flex align-items-center justify-content-center mb-4 mx-auto" style="width: 150px; height: 150px;">
-          <img src="../../assets/img/logo.png" height="70" alt=""
-               loading="lazy" />
+          <img src="../../assets/img/logo.png" height="70" alt="" loading="lazy" />
         </div>
 
         <p class="text-center">Réveillez l'éclat de votre espace avec nos <span class="text-warning"> rénovations </span> d'exception !</p>
@@ -68,22 +67,22 @@
 
         <ul class="list-unstyled">
           <li class="mb-2">
-            <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>La société</a>
+            <a href="#!" class="text-white"></i>La société</a>
           </li>
           <li class="mb-2">
-            <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>CGV</a>
+            <a href="#!" class="text-white"></i>CGV</a>
           </li>
           <li class="mb-2">
-            <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Gestion des cookies</a>
+            <a href="#!" class="text-white"></i>Gestion des cookies</a>
           </li>
           <li class="mb-2">
-            <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Données Personnelles</a>
+            <a href="#!" class="text-white"></i>Données Personnelles</a>
           </li>
           <li class="mb-2">
-            <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Mention légales</a>
+            <a href="#!" class="text-white"></i>Mention légales</a>
           </li>
           <li class="mb-2">
-            <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Contact</a>
+            <a href="#!" class="text-white"></i>Contact</a>
           </li>
         </ul>
       </div>
@@ -101,7 +100,7 @@
             <p><i class="fas fa-phone pe-2"></i>06 22 19 34 31</p>
           </li>
           <li>
-            <p><i class="fas fa-envelope pe-2 mb-0"></i>sbtr@sbtr.fr</p>
+            <p><i class="fas fa-envelope pe-2 mb-0"></i>sbtr@sbtr.paris.fr</p>
           </li>
         </ul>
       </div>
@@ -114,9 +113,11 @@
   <!-- Copyright -->
   <div class="text-center bg-dark bg-gradient p-3">
     © 2023 Copyright Tous droits réservés.
-    <a class="text-white" href="https://sbtr.fr">sbtr.fr</a>
+    <a class="text-white" href="https://sbtr.paris.fr">sbtr.paris.fr</a>
   </div>
   <!-- Copyright -->
 </footer>
 
-</div>
+</body>
+
+</html>
