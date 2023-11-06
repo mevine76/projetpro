@@ -3,7 +3,7 @@
 <!-- section desktop -->
 <section class="bg-desktop-projects d-none d-sm-block p-5 vh-75">
     <div class="container">
-        <h1 class="display-2 fw-semibold text-white mt-4">Notre entreprise de <span class="text-warning">rénovation</span> tous corps d'état</h1>
+        <h1 class="display-2 fw-semibold text-white mt-4">La <span class="text-warning">rénovation</span> sur mesure prend tout son sens</h1>
         <p class="mt-5 text-white w-75"><span class="text-warning"></p>
     </div>
 </section>
