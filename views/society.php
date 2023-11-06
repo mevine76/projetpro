@@ -60,7 +60,7 @@
 <section class="py-5 text-center">
     <div class="container bg-white">
         <h2 class="fs-2 fw-bold mb-4 p-4">Demande de Devis</h2>
-        <p class="lead text-start">Vous avez un projet en tête ? Contactez-nous dès maintenant pour demander un devis gratuit et personnalisé. Notre équipe est prête à concrétiser vos idées et à créer l'espace de vos rêves.</p>
+        <p class="lead text-start p-2">Vous avez un projet en tête ? Contactez-nous dès maintenant pour demander un devis gratuit et personnalisé. Notre équipe est prête à concrétiser vos idées et à créer l'espace de vos rêves.</p>
         <a href="../controllers/controller_quote_form.php" class="btn btn-warning bg-gradient btn-lg mt-5 mb-4">Demander un Devis</a>
     </div>
 </section>

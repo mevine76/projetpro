@@ -106,7 +106,7 @@
 </section>
 
 <!-- section pourquoi nous choisir-->
-<section id="choisir" class="bg-dark bg-gradient mb-4 py-4">
+<section id="choisir" class="bg-dark bg-gradient mb-1 py-4">
   <div class="container">
     <div class="row align-items-center">
       <div class="col-md-6">
@@ -128,240 +128,31 @@
   </div>
 </section>
 <!-- section nos prestations -->
-
-<section id="prestations" class="py-3 prestations">
-  <div class="container">
-    <h2 class="text-center fs-2 fw-bold mb-4">NOS PRESTATIONS</h2>
-    <div id="prestationsCarousel" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <!-- Première slide -->
-        <div class="carousel-item active">
-          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
-            <!-- Prestation 1 : Rénovation Intérieure -->
-            <div class="col">
-              <div class="card h-100">
-                <div class="card-body">
-                  <h5 class="card-title">Rénovation Intérieure</h5>
-                  <p class="card-text">Transformation complète de vos espaces pour les rendre à votre image.</p>
-                </div>
-              </div>
-            </div>
-            <!-- Prestation 2 : Peinture -->
-            <div class="col">
-              <div class="card h-100">
-                <div class="card-body">
-                  <h5 class="card-title">Peinture</h5>
-                  <p class="card-text">Choix de couleurs, textures et finitions pour des murs qui vous ressemblent.</p>
-                </div>
-              </div>
-            </div>
-            <!-- Prestation 3 : Plomberie -->
-            <div class="col">
-              <div class="card h-100">
-                <div class="card-body">
-                  <h5 class="card-title">Plomberie</h5>
-                  <p class="card-text">Installation et réparation de vos équipements sanitaires avec expertise.</p>
-                </div>
-              </div>
-            </div>
-            <!-- Prestation 4 : Carrelage -->
-            <div class="col">
-              <div class="card h-100">
-                <div class="card-body">
-                  <h5 class="card-title">Carrelage</h5>
-                  <p class="card-text">Pose de carreaux aux motifs et tailles variées pour un sol harmonieux.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Fin de la première slide -->
-          <!-- Deuxième slide -->
-          <div class="carousel-item">
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
-              <!-- Prestation 5 : Tapisserie -->
-              <div class="col">
-                <div class="card h-100">
-                  <div class="card-body">
-                    <h5 class="card-title">Tapisserie</h5>
-                    <p class="card-text">Sélection de papiers et techniques pour habiller vos murs avec élégance.</p>
-                  </div>
-                </div>
-              </div>
-              <!-- Prestation 6 : Menuiserie -->
-              <div class="col">
-                <div class="card h-100">
-                  <div class="card-body">
-                    <h5 class="card-title">Menuiserie</h5>
-                    <p class="card-text">Création de meubles sur mesure et aménagements en bois.</p>
-                  </div>
-                </div>
-              </div>
-              <!-- Prestation 7 : Electricité -->
-              <div class="col">
-                <div class="card h-100">
-                  <div class="card-body">
-                    <h5 class="card-title">Electricité</h5>
-                    <p class="card-text">Installation, mise en conformité et dépannage électrique.</p>
-                  </div>
-                </div>
-              </div>
-              <!-- Prestation 8 : Revêtements de Sol -->
-              <div class="col">
-                <div class="card h-100">
-                  <div class="card-body">
-                    <h5 class="card-title">Revêtements de Sol</h5>
-                    <p class="card-text">Solutions variées pour un sol confortable et esthétique.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Fin de la deuxième slide -->
-          <!-- Troisième slide -->
-          <div class="carousel-item">
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
-              <!-- Prestation 9 : Isolation -->
-              <div class="col">
-                <div class="card h-100">
-                  <div class="card-body">
-                    <h5 class="card-title">Isolation</h5>
-                    <p class="card-text">Optimisation thermique pour un intérieur confortable et économe.</p>
-                  </div>
-                </div>
-              </div>
-              <!-- Prestation 10 : Plâtrerie -->
-              <div class="col">
-                <div class="card h-100">
-                  <div class="card-body">
-                    <h5 class="card-title">Plâtrerie</h5>
-                    <p class="card-text">Travaux de plâtre et d'enduit pour des murs impeccables.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card h-100">
-                  <div class="card-body">
-                    <h5 class="card-title">Revêtements Muraux</h5>
-                    <p class="card-text">Habillez vos murs avec des matériaux innovants et esthétiques.</p>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Prestation 12 : Escaliers et Rampes -->
-              <div class="col">
-                <div class="card h-100">
-                  <div class="card-body">
-                    <h5 class="card-title">Escaliers et Rampes</h5>
-                    <p class="card-text">Conception et installation d'escaliers et de rampes sur mesure.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Fin de la troisième slide -->
-          <!-- Quatrième slide -->
-          <div class="carousel-item">
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
-              <!-- Prestation 13 : Aménagement de Combles -->
-              <div class="col">
-                <div class="card h-100">
-                  <div class="card-body">
-                    <h5 class="card-title">Aménagement de Combles</h5>
-                    <p class="card-text">Transformez vos combles en espace de vie fonctionnel et confortable.</p>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Prestation 14 : Vitrerie -->
-              <div class="col">
-                <div class="card h-100">
-                  <div class="card-body">
-                    <h5 class="card-title">Vitrerie</h5>
-                    <p class="card-text">Installation et remplacement de vitres et de fenêtres sur mesure.</p>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Prestation 15 : Serrurerie -->
-              <div class="col">
-                <div class="card h-100">
-                  <div class="card-body">
-                    <h5 class="card-title">Serrurerie</h5>
-                    <p class="card-text">Services de serrurerie pour la sécurisation de vos espaces.</p>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Prestation 16 : Cuisine sur Mesure -->
-              <div class="col">
-                <div class="card h-100">
-                  <div class="card-body">
-                    <h5 class="card-title">Cuisine sur Mesure</h5>
-                    <p class="card-text">Conception et installation de cuisines personnalisées selon vos besoins.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Fin de la quatrième slide -->
-          <!-- Cinquième slide -->
-          <div class="carousel-item">
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
-              <!-- Prestation 17 : Salles de Bain sur Mesure -->
-              <div class="col">
-                <div class="card h-100">
-                  <div class="card-body">
-                    <h5 class="card-title">Salles de Bain sur Mesure</h5>
-                    <p class="card-text">Créez la salle de bain de vos rêves avec des solutions sur mesure.</p>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Prestation 18 : Chauffage et Climatisation -->
-              <div class="col">
-                <div class="card h-100">
-                  <div class="card-body">
-                    <h5 class="card-title">Chauffage et Climatisation</h5>
-                    <p class="card-text">Installation et entretien de systèmes de chauffage et de climatisation.</p>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Prestation 19 : Aménagement Extérieur -->
-              <div class="col">
-                <div class="card h-100">
-                  <div class="card-body">
-                    <h5 class="card-title">Aménagement Extérieur</h5>
-                    <p class="card-text">Création d'espaces extérieurs fonctionnels et esthétiques.</p>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Prestation 20 : Décoration d'Intérieur -->
-              <div class="col">
-                <div class="card h-100">
-                  <div class="card-body">
-                    <h5 class="card-title">Décoration d'Intérieur</h5>
-                    <p class="card-text">Conseils et mise en œuvre pour une décoration qui vous ressemble.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-      </div>
-      <!-- Flèches de navigation -->
-      <button class="carousel-control-prev" type="button" data-bs-target="#prestationsCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#prestationsCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+<section id="prestations" class="py-2 mb-5 prestations" >
+<div id="prestationscarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner align-items-center">
+    <div class="carousel-item active">
+      <img src="../assets/img/carousel1.jpg" class="d-block w-100" alt="photo cuisine">
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/img/carousel2.jpg" class="d-block w-100" alt="photo cuisine">
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/img/carousel3.jpg" class="d-block w-100" alt="photo cuisine">
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/img/cuisine.jpg" class="d-block w-100" alt="photo cuisine">
     </div>
   </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
 </section>
 
 

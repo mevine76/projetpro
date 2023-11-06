@@ -71,7 +71,11 @@ h1, h2, h3, h4 {
     display: block;
 }
   
-
+.carousel-item {
+    transform: scale(0.50);
+    width: 100%;
+    height: 100vh;
+}
 .centered-icon {
     display: flex;
     justify-content: center;
@@ -82,3 +86,5 @@ h1, h2, h3, h4 {
     background-color: #e7e7de;
 }
 
+
+  
