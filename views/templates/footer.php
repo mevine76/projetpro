@@ -37,25 +37,25 @@
 
         <ul class="list-unstyled">
           <li class="mb-2">
-            <a href="#!" class="text-white"></i>Cuisines</a>
+            <a href="../../controllers/controller_projects.php" class="text-white"></i>Cuisines</a>
           </li>
           <li class="mb-2">
-            <a href="#!" class="text-white"></i>Chambres</a>
+            <a href="../../controllers/controller_projects.php" class="text-white"></i>Chambres</a>
           </li>
           <li class="mb-2">
-            <a href="#!" class="text-white"></i>Salle d'eau</a>
+            <a href="../../controllers/controller_projects.php" class="text-white"></i>Salle d'eau</a>
           </li>
           <li class="mb-2">
-            <a href="#!" class="text-white"></i>Menuiserie</a>
+            <a href="../../controllers/controller_projects.php" class="text-white"></i>Menuiserie</a>
           </li>
           <li class="mb-2">
-            <a href="#!" class="text-white"></i>Appartements</a>
+            <a href="../../controllers/controller_projects.php" class="text-white"></i>Appartements</a>
           </li>
           <li class="mb-2">
-            <a href="#!" class="text-white"></i>Maisons</a>
+            <a href="../../controllers/controller_projects.php" class="text-white"></i>Maisons</a>
           </li>
           <li class="mb-2">
-            <a href="#!" class="text-white"></i>Bureaux</a>
+            <a href="../../controllers/controller_projects.php" class="text-white"></i>Bureaux</a>
           </li>
         </ul>
       </div>
@@ -67,7 +67,7 @@
 
         <ul class="list-unstyled">
           <li class="mb-2">
-            <a href="#!" class="text-white"></i>La société</a>
+            <a href="../../controllers/controller_society.php" class="text-white"></i>La société</a>
           </li>
           <li class="mb-2">
             <a href="#!" class="text-white"></i>CGV</a>
@@ -82,7 +82,7 @@
             <a href="#!" class="text-white"></i>Mention légales</a>
           </li>
           <li class="mb-2">
-            <a href="#!" class="text-white"></i>Contact</a>
+            <a href="../../controllers/controller_contact.php" class="text-white"></i>Contact</a>
           </li>
         </ul>
       </div>
