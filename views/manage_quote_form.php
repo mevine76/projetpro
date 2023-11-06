@@ -13,7 +13,7 @@
 
     <h1 class="mb-4">Gestion des Devis</h1>
 
-    <form action="../controllers/controller_manage_quote.php" method="POST">
+    <form action="../controllers/controller_manage_quote_form.php" method="POST">
 
         <div class="mb-3">
             <label for="quote_id" class="form-label">ID du Devis</label>

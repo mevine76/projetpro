@@ -9,7 +9,7 @@
       Chaque projet est une toile vierge où notre équipe d'experts déploie son savoir-faire pour créer un intérieur
       qui transcende les attentes. Laissez-nous vous guider vers un espace qui vous ressemble et vous inspire chaque
       jour.</p>
-    <p class="mt-5"><a class="btn btn-warning bg-gradient btn-md" href="#">Demander un devis</a></p>
+    <p class="mt-5"><a class="btn btn-warning bg-gradient btn-md" href="../controllers/controller_quote_form.php">Demander un devis</a></p>
   </div>
 </section>
 
@@ -21,7 +21,7 @@
       Chaque projet est une toile vierge où notre équipe d'experts déploie son savoir-faire pour créer un intérieur
       qui transcende les attentes. Laissez-nous vous guider vers un espace qui vous ressemble et vous inspire chaque
       jour.</p>
-    <p class="mt-5"><a class="btn btn-warning bg-gradient btn-md" href="#">Demander un devis</a></p>
+    <p class="mt-5"><a class="btn btn-warning bg-gradient btn-md" href="../controllers/controller_quote_form.php">Demander un devis</a></p>
   </div>
 </section>
 

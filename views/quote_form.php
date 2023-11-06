@@ -53,7 +53,7 @@
       <div class="d-flex justify-content-center py-3">
         <input type="hidden" name="action" value="submit_quote">
         <button type="submit" class="button rounded">Confirmer la demande</button>
-        <!-- <a href="controllers/controller-quote.php" type="submit" class="bouton">Confirm identity</a> -->
+        <a href="controllers/controller-quote.php" type="submit" class="bouton">Confirm identity</a>
       </div>
       </form>
 
