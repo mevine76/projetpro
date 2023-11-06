@@ -52,6 +52,20 @@ h1, h2, h3, h4 {
     background-repeat: no-repeat;
 }
 
+.bg-desktop-quote {
+    background-image: url("../../assets/img/quote.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.bg-mobile-quote {
+    background-image: url("../../assets/img/quote.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
 .bg-desktop-contact {
     background-image: url("../../assets/img/contact.jpg");
     background-size: cover;
