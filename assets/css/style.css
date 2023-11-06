@@ -38,7 +38,7 @@ h1, h2, h3, h4 {
     background-repeat: no-repeat;
 }
 
-.card {
+.realisations .card {
      /* Ajoute de l'espace à droite de chaque carte */
     /* transition: all 0.3s; */
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -46,20 +46,28 @@ h1, h2, h3, h4 {
     transition: transform 0.3s ease; /* Animation fluide */
 }
   
-.card:last-child {
+.realisations .card:last-child {
     margin-right: 0; /* Enlève la marge de la dernière carte pour éviter un espace vide à la fin */
 }
   
 
-.card:hover {
+.realisations .card:hover {
     transform: scale(1.15);
 }
 
-.card-text {
+.prestations .card-text {
     display: none;
 }
   
-.card:hover .card-text {
+.prestations .card:hover .card-text {
+    display: block;
+}
+
+.society .card-text {
+    display: none;
+}
+
+.society .card:hover .card-text {
     display: block;
 }
   

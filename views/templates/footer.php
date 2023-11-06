@@ -100,7 +100,7 @@
             <p><i class="fas fa-phone pe-2"></i>06 22 19 34 31</p>
           </li>
           <li>
-            <p><i class="fas fa-envelope pe-2 mb-0"></i>sbtr@sbtr.paris.fr</p>
+            <p><i class="fas fa-envelope pe-2 mb-0"></i>sbtr@sbtr-paris.fr</p>
           </li>
         </ul>
       </div>
@@ -113,7 +113,7 @@
   <!-- Copyright -->
   <div class="text-center bg-dark bg-gradient p-3">
     © 2023 Copyright Tous droits réservés.
-    <a class="text-white" href="https://sbtr.paris.fr">sbtr.paris.fr</a>
+    <a class="text-white" href="https://sbtr-paris.fr">sbtr-paris.fr</a>
   </div>
   <!-- Copyright -->
 </footer>

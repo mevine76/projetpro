@@ -17,7 +17,7 @@
 </section>
 
 <section class="py-5">
-    <div class="container">
+    <div class="container bg-white">
         <div class="row">
             <div class="col-md-4 text-center my-4 p-4"> <!-- Ajout de la classe text-center -->
                 <h2 class="fs-2 fw-bold mb-4">Qui sommes-nous ?</h2>
@@ -37,10 +37,7 @@
                     <li class="lead text-start">- Menuiserie sur mesure</li>
                     <li class="lead text-start">- Revêtements de sol</li>
                     <li class="lead text-start">- Electricité</li>
-                    <li class="lead text-start">- Plâtrerie</li>
-                    <li class="lead text-start">- Isolation thermique</li>
-                    <li class="lead text-start">- Revêtements muraux</li>
-                    <li class="lead text-start">- Agencement sur mesure</li>
+                    <li class="lead text-start">- Plâtrerie..</li>
                 </ul>
             </div>
             <div class="col-md-4 text-center my-4 p-4"> <!-- Ajout de la classe text-center -->
@@ -53,23 +50,23 @@
 
 
 
-<section class="py-5 text-center">
-    <div class="container">
+<section class="py-5 text-center bg-white">
+    <div class="container bg-white">
         <h2 class="fs-2 fw-bold mb-4 p-4">Partenariat avec Atelier KIOL</h2>
-        <p class="lead text-start">SBTR collabore étroitement avec le cabinet d'architecte Atelier KIOL, situé dans le 18ème arrondissement de Paris. Cette synergie d'expertises permet de concrétiser des projets d'exception, alliant la créativité architecturale à la maîtrise technique des travaux, pour des résultats uniques et sur-mesure.</p>
+        <p class="lead text-start">SBTR collabore étroitement avec le cabinet d'architecte Atelier KIOL, situé dans le 10ème arrondissement de Paris. Cette synergie d'expertises permet de concrétiser des projets d'exception, alliant la créativité architecturale à la maîtrise technique des travaux, pour des résultats uniques et sur-mesure.</p>
     </div>
 </section>
 
 <section class="py-5 text-center">
-    <div class="container">
+    <div class="container bg-white">
         <h2 class="fs-2 fw-bold mb-4 p-4">Demande de Devis</h2>
         <p class="lead text-start">Vous avez un projet en tête ? Contactez-nous dès maintenant pour demander un devis gratuit et personnalisé. Notre équipe est prête à concrétiser vos idées et à créer l'espace de vos rêves.</p>
-        <a href="#" class="btn btn-warning bg-gradient btn-lg">Demander un Devis</a>
+        <a href="../controllers/controller_quote_form.php" class="btn btn-warning bg-gradient btn-lg mt-5 mb-4">Demander un Devis</a>
     </div>
 </section>
-<section class="py-5">
+<section id="society" class="py-3 society">
     <div class="container">
-        <h2 class="text-center fs-2 fw-bold mb-5">Nos Prestations</h2>
+        <h2 class="text-center fs-2 fw-bold mb-5 mt-3">Nos Prestations</h2>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
             <!-- Prestation 1 : Rénovation Intérieure -->
             <div class="col">
