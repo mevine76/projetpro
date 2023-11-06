@@ -128,7 +128,7 @@
   </div>
 </section>
 <!-- section nos prestations -->
-<section id="prestations" class="py-2 mb-5 prestations" >
+<section id="prestations" class="mb-2 prestations" >
 <div id="prestationscarousel" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner align-items-center">
     <div class="carousel-item active">

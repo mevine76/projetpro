@@ -13,6 +13,8 @@
   
   <script src="https://kit.fontawesome.com/bb2d177e58.js" crossorigin="anonymous"></script>
   <script src="../../assets/js/script.js"></script>
+  <link rel=”icon” href=”favicon.ico” type=”image/x-icon”>
+  <link rel="shortcut icon" href="../../assets/img/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="../../assets/css/style.css">
 </head>
 
@@ -47,10 +49,10 @@
               <a class="nav-link" href="../../controllers/controller_contact.php">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"><i class="bi bi-facebook"></i></a>
+              <a class="nav-link" href="https://fr-fr.facebook.com/"><i class="bi bi-facebook"></i></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"><i class="bi bi-youtube"></i></a>
+              <a class="nav-link" href="https://www.youtube.com/"><i class="bi bi-youtube"></i></a>
             </li>
           </ul>
         </div>

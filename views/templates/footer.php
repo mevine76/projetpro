@@ -18,12 +18,12 @@
         <ul class="list-unstyled d-flex flex-row justify-content-center">
           <li>
             <a class="text-white px-3" href="#!">
-              <a class="nav-link" href="#"><i class="bi bi-facebook"></i></a>
+              <a class="nav-link" href="https://fr-fr.facebook.com/"><i class="bi bi-facebook"></i></a>
             </a>
           </li>
           <li>
             <a class="text-white ps-3" href="#!">
-              <a class="nav-link" href="#"><i class="bi bi-youtube"></i></a>
+              <a class="nav-link" href="https://www.youtube.com/"><i class="bi bi-youtube"></i></a>
             </a>
           </li>
         </ul>
