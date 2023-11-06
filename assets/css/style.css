@@ -38,6 +38,20 @@ h1, h2, h3, h4 {
     background-repeat: no-repeat;
 }
 
+.bg-desktop-projects {
+    background-image: url("../../assets/img/cuisine1.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.bg-mobile-projects {
+    background-image: url("../../assets/img/cuisine1.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
 .realisations .card {
      /* Ajoute de l'espace à droite de chaque carte */
     /* transition: all 0.3s; */
