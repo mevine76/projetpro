@@ -10,7 +10,7 @@
       <h2 class="display-3 fw-bold">Demande de devis</h2>
 
       <div class="mb-3">
-        <form action="../controllers/controller_quote_form.php" method="POST">
+        <form action="../controllers/controller_quote.php" method="POST">
 
           <div class="row mb-3">
             <div class="col">
@@ -46,14 +46,14 @@
             <input type="text" name="email_address" class="form-control" placeholder="email" aria-label="email">
 
 
-            <label for="FormControlTextarea1" class="form-label"></label>
+            <label for="FormControlTextarea1" class="form-label mt-4"></label>
             <textarea name="work_description" class="form-control" id="FormControlTextarea1" rows="3"></textarea>
           </div>
       </div>
       <div class="d-flex justify-content-center py-3">
         <input type="hidden" name="action" value="submit_quote">
         <button type="submit" class="button rounded">Confirmer la demande</button>
-        <a href="controllers/controller-quote.php" type="submit" class="bouton">Confirm identity</a>
+        <!-- <a href="controllers/controller-quote.php" type="submit" class="bouton">Confirm identity</a> -->
       </div>
       </form>
 

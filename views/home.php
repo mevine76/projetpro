@@ -349,7 +349,7 @@
             </div>
           </div>
         </div>
-        <!-- Ajoutez les autres éléments "carousel-item" avec les cartes ici -->
+        
       </div>
       <!-- Flèches de navigation -->
       <button class="carousel-control-prev" type="button" data-bs-target="#prestationsCarousel" data-bs-slide="prev">
