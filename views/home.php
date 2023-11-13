@@ -37,7 +37,7 @@
           <div class="card-body">
             <h5 class="card-title">Salle d'eau</h5>
             <p class="card-text">Installation d'une douche à la place d'une baignoire..</p>
-            <a href="#" class="btn btn-warning">Voir</a>
+            <a href="/controllers/controller_projects.php" class="btn btn-warning">Voir</a>
           </div>
         </div>
       </div>
@@ -47,7 +47,7 @@
           <div class="card-body">
             <h5 class="card-title">Chambre</h5>
             <p class="card-text">Aménagement rangements sur mesure, chambre..</p>
-            <a href="#" class="btn btn-warning">Voir</a>
+            <a href="/controllers/controller_projects.php" class="btn btn-warning">Voir</a>
           </div>
         </div>
       </div>
@@ -57,7 +57,7 @@
           <div class="card-body">
             <h5 class="card-title">Cuisine</h5>
             <p class="card-text">Cuisine adaptée en fonction des murs et des fenêtres..</p>
-            <a href="#" class="btn btn-warning">Voir</a>
+            <a href="/controllers/controller_projects.php" class="btn btn-warning">Voir</a>
           </div>
         </div>
       </div>
@@ -67,12 +67,12 @@
           <div class="card-body">
             <h5 class="card-title">Couloir</h5>
             <p class="card-text">Utilisation des poutres pour créer des placards..</p>
-            <a href="#" class="btn btn-warning">Voir</a>
+            <a href="/controllers/controller_projects.php" class="btn btn-warning">Voir</a>
           </div>
         </div>
       </div>
     </div>
-    <p class="mt-2 text-center"><a class="btn btn-warning bg-gradient btn-md mt-4" href="/controllers/controller_society.php">Voir plus</a></p>
+    <p class="mt-2 text-center"><a class="btn btn-warning bg-gradient btn-md mt-4" href="/controllers/controller_projects.php">Voir plus</a></p>
   </div>
 </section>
 <!-- section nos atouts -->
@@ -128,34 +128,42 @@
   </div>
 </section>
 <!-- section nos prestations -->
-<section id="prestations" class="mb-2 prestations" >
-<div id="prestationscarousel" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner align-items-center">
-    <div class="carousel-item active">
-      <img src="../assets/img/carousel1.jpg" class="d-block w-100" alt="photo cuisine">
+<section id="prestations" class="mb-2 prestations">
+  <div id="prestationscarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner align-items-center">
+      <div class="carousel-item active">
+        <img src="../assets/img/carousel1.jpg" class="d-block w-100" alt="photo cuisine">
+      </div>
+      <div class="carousel-item">
+        <img src="../assets/img/carousel2.jpg" class="d-block w-100" alt="photo cuisine">
+      </div>
+      <div class="carousel-item">
+        <img src="../assets/img/carousel3.jpg" class="d-block w-100" alt="photo cuisine">
+      </div>
+      <div class="carousel-item">
+        <img src="../assets/img/cuisine.jpg" class="d-block w-100" alt="photo cuisine">
+      </div>
     </div>
-    <div class="carousel-item">
-      <img src="../assets/img/carousel2.jpg" class="d-block w-100" alt="photo cuisine">
-    </div>
-    <div class="carousel-item">
-      <img src="../assets/img/carousel3.jpg" class="d-block w-100" alt="photo cuisine">
-    </div>
-    <div class="carousel-item">
-      <img src="../assets/img/cuisine.jpg" class="d-block w-100" alt="photo cuisine">
-    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
 </section>
 
 
+<!-- Bannière de consentement des cookies -->
+<div id="cookieConsentBanner" class="col-md-12 text-center" style="">
+  <p>Nous utilisons des cookies pour améliorer votre expérience sur notre site. En continuant, vous acceptez notre utilisation des cookies. <a href="/politique-de-cookies">En savoir plus</a></p>
+  <button class="bg-warning mx-4 mb-4 rounded" onclick="accepterCookies()">J'accepte</button><button class="bg-warning rounded" onclick="accepterCookies()">Je refuse</button>
+</div>
+
+<!-- Votre script JavaScript pour gérer les cookies -->
+<script src="../assets/js/script-cookies.js"></script>
 
 
 
