@@ -16,7 +16,34 @@
     </div>
 </section>
 
-
+<ul class="nav nav-underline col-md-12 text-center">
+    <li class="nav-item">
+        <a class="nav-link text-white" href="#">Cuisines</a>
+        <p>vfv</p>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link text-white" href="#">Salles de bains</a>
+        <p>jhgigu</p>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link text-white" href="#">Chambres</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link text-white" href="#">Salons</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link text-white" href="#">Menuiseries</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link text-white" href="#">Couloirs</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link text-white" href="#">Lumières</a>
+    </li>
+    <!-- <li class="nav-item">
+    <a class="nav-link disable" aria-disabled="true">Disabled</a>
+  </li> -->
+</ul>
 
 
 

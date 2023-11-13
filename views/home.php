@@ -157,13 +157,14 @@
 
 
 <!-- Bannière de consentement des cookies -->
-<div id="cookieConsentBanner" class="col-md-12 text-center" style="">
+<div id="cookieConsentBanner" class="col-md-12 text-center">
   <p>Nous utilisons des cookies pour améliorer votre expérience sur notre site. En continuant, vous acceptez notre utilisation des cookies. <a href="/politique-de-cookies">En savoir plus</a></p>
   <button class="bg-warning mx-4 mb-4 rounded" onclick="accepterCookies()">J'accepte</button><button class="bg-warning rounded" onclick="accepterCookies()">Je refuse</button>
 </div>
 
 <!-- Votre script JavaScript pour gérer les cookies -->
 <script src="../assets/js/script-cookies.js"></script>
+<script src="../assets/js/script.js"></script>
 
 
 
