@@ -1,6 +1,7 @@
 <?php
 require "../models/Quote.php";
 require "../helpers/Database.php";
+require "../views/manage_quote_form.php";
 
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {

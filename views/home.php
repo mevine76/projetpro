@@ -162,6 +162,9 @@
   <button class="bg-warning mx-4 mb-4 rounded" onclick="accepterCookies()">J'accepte</button><button class="bg-warning rounded" onclick="accepterCookies()">Je refuse</button>
 </div>
 
+<!-- Ajout librairie JQuery -->4
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
 <!-- Votre script JavaScript pour gérer les cookies -->
 <script src="../assets/js/script-cookies.js"></script>
 <script src="../assets/js/script.js"></script>

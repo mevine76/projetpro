@@ -10,4 +10,17 @@ try {
 } catch (PDOException $e) {
     die("Erreur : " . $e->getMessage());
 }
+
+
+function getImagesByCategory($category)
+{
+    global $db; // Utilise la connexion à la base de données définie dans ce fichier
+    
+    $sql = "SELECT filename FROM images WHERE category = :category";
+    $stmt = $db->prepare($sql);
+    $stmt->bindParam(':category', $category, PDO::PARAM_STR);
+    $stmt->execute();
+    return $stmt->fetchAll(PDO::FETCH_ASSOC);
+}
+
 ?>

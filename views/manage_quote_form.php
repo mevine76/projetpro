@@ -25,6 +25,12 @@
 
     </form>
 
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+        <input type="file" name="image" accept="image/*">
+        <input type="submit" value="Ajouter l'image">
+    </form>
+
+
   
 
 </body>
