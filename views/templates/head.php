@@ -45,9 +45,19 @@
             <li class="nav-item">
               <a class="nav-link" href="../../controllers/controller_quote_form.php">Demande devis</a>
             </li>
+            <?php if (isset($_SESSION['admin_id'])){ ?>
+              <li class="nav-item">
+              <a class="nav-link" href="../../controllers/controller_upload_form.php">Krupnik</a>
+            </li>
+            <?php } ?>
             <li class="nav-item">
               <a class="nav-link" href="../../controllers/controller_contact.php">Contact</a>
             </li>
+            <?php if (isset($_SESSION['admin_id'])){ ?>
+              <li class="nav-item">
+              <a class="nav-link" href="../../controllers/controller_disconnect.php">Déco</a>
+            </li>
+            <?php } ?>
             <li class="nav-item">
               <a class="nav-link" href="https://fr-fr.facebook.com/"><i class="bi bi-facebook"></i></a>
             </li>

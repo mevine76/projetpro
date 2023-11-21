@@ -1,4 +1,6 @@
 <?php
+session_start();
+
 require "../models/Quote.php";
 require "../helpers/Database.php";
 require "../views/quote_form.php";
@@ -15,10 +17,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $work_type = $_POST['work_type'];
     $work_description = $_POST['work_description'];
     $addQuote = insertQuote($db);
+    var_dump($addQuote);
     
     if($addQuote){
         // Redirection après la soumission du formulaire
-        header('Location: ../confirmation.php');
+        header('Location: ../views/confirmation.php');
         exit();
     } else {
         echo "Erreur lors de l'ajout du devis.";
@@ -44,7 +47,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         // Supprimer le devis
         $deleteQuote = deleteQuote($db, $quote_id);
         if ($deleteQuote) {
-            header('Location: ../confirmation.php');
+            header('Location: ../views/confirmation.php');
             exit();
         } else {
             echo "Erreur lors de la suppression du devis.";

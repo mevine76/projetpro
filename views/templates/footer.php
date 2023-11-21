@@ -37,25 +37,25 @@
 
         <ul class="list-unstyled">
           <li class="mb-2">
-            <a href="../../controllers/controller_projects.php" class="text-white"></i>Cuisines</a>
+            <a href="../../controllers/controller_projects.php#kitchens" class="text-white"></i>Cuisines</a>
           </li>
           <li class="mb-2">
-            <a href="../../controllers/controller_projects.php" class="text-white"></i>Chambres</a>
+            <a href="../../controllers/controller_projects.php#bedrooms" class="text-white"></i>Chambres</a>
           </li>
           <li class="mb-2">
-            <a href="../../controllers/controller_projects.php" class="text-white"></i>Salle d'eau</a>
+            <a href="../../controllers/controller_projects.php#bathrooms" class="text-white"></i>Salle d'eau</a>
           </li>
           <li class="mb-2">
-            <a href="../../controllers/controller_projects.php" class="text-white"></i>Menuiserie</a>
+            <a href="../../controllers/controller_projects.php#living_rooms" class="text-white"></i>Salon</a>
           </li>
           <li class="mb-2">
-            <a href="../../controllers/controller_projects.php" class="text-white"></i>Appartements</a>
+            <a href="../../controllers/controller_projects.php#carpentries" class="text-white"></i>Menuiserie</a>
           </li>
           <li class="mb-2">
             <a href="../../controllers/controller_projects.php" class="text-white"></i>Maisons</a>
           </li>
           <li class="mb-2">
-            <a href="../../controllers/controller_projects.php" class="text-white"></i>Bureaux</a>
+            <a href="../../controllers/controller_projects.php#" class="text-white"></i>Bureaux</a>
           </li>
         </ul>
       </div>
@@ -97,7 +97,7 @@
             <p><i class="fas fa-map-marker-alt pe-2"></i>12, rue Baudelique 75018 Paris</p>
           </li>
           <li>
-            <p><i class="fas fa-phone pe-2"></i>06 22 19 34 31</p>
+          <a href="../../controllers/controller_connexion.php"><i class="fas fa-lock pe-2 text-dark"></i></a> 06 22 19 34 31
           </li>
           <li>
             <p><i class="fas fa-envelope pe-2 mb-0"></i>sbtr@sbtr-paris.fr</p>

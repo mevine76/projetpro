@@ -8,7 +8,7 @@
 
         <div class="mb-3">
             <label for="quote_id" class="form-label">ID du Devis</label>
-            <input type="text" class="form-control" id="quote_id" name="quote_id">
+            <input type="text" class="form-control" id="quote_id" name="quote_id" placeholder="Entrez un numéro de devis">
         </div>
 
         <div class="mb-3">
@@ -20,18 +20,13 @@
                 <option value="delete">Supprimer Devis</option>
             </select>
         </div>
-
-        <button type="submit" class="btn btn-primary">Soumettre</button>
-
-    </form>
-
-    <form action="upload.php" method="post" enctype="multipart/form-data">
-        <input type="file" name="image" accept="image/*">
-        <input type="submit" value="Ajouter l'image">
+        <div class="text-center mb-4">
+            <button type="submit" class="btn btn-warning">Soumettre</button>
+        </div>
     </form>
 
 
-  
+
 
 </body>
 

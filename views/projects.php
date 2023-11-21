@@ -51,7 +51,7 @@
         $images = getImagesByCategory($category);
 
         foreach ($images as $image) {
-            echo '<div class="col-md-4 mb-4">';
+            echo '<div class="col-md-4 mb-2">';
             echo '<img src="../assets/img/' . $image['filename'] . '" class="img-fluid" alt="kitchen">';
             echo '</div>';
         }
@@ -67,7 +67,7 @@
         $images = getImagesByCategory($category);
 
         foreach ($images as $image) {
-            echo '<div class="col-md-4 mb-4">';
+            echo '<div class="col-md-4 mb-2">';
             echo '<img src="../assets/img/' . $image['filename'] . '" class="img-fluid" alt="bathrooms">';
             echo '</div>';
         }
@@ -83,7 +83,7 @@
         $images = getImagesByCategory($category);
 
         foreach ($images as $image) {
-            echo '<div class="col-md-4 mb-4">';
+            echo '<div class="col-md-4 mb-2">';
             echo '<img src="../assets/img/' . $image['filename'] . '" class="img-fluid" alt="bedroom">';
             echo '</div>';
         }
@@ -99,7 +99,7 @@
         $images = getImagesByCategory($category);
 
         foreach ($images as $image) {
-            echo '<div class="col-md-4 mb-4">';
+            echo '<div class="col-md-4 mb-2">';
             echo '<img src="../assets/img/' . $image['filename'] . '" class="img-fluid" alt="living-room">';
             echo '</div>';
         }
@@ -115,7 +115,7 @@
         $images = getImagesByCategory($category);
 
         foreach ($images as $image) {
-            echo '<div class="col-md-4 mb-4">';
+            echo '<div class="col-md-4 mb-2">';
             echo '<img src="../assets/img/' . $image['filename'] . '" class="img-fluid" alt="carpentry">';
             echo '</div>';
         }
@@ -131,7 +131,7 @@
         $images = getImagesByCategory($category);
 
         foreach ($images as $image) {
-            echo '<div class="col-md-4 mb-4">';
+            echo '<div class="col-md-4 mb-2">';
             echo '<img src="../assets/img/' . $image['filename'] . '" class="img-fluid" alt="hallway">';
             echo '</div>';
         }
@@ -147,7 +147,7 @@
         $images = getImagesByCategory($category);
 
         foreach ($images as $image) {
-            echo '<div class="col-md-4 mb-4">';
+            echo '<div class="col-md-4 mb-2">';
             echo '<img src="../assets/img/' . $image['filename'] . '" class="img-fluid" alt="lighting">';
             echo '</div>';
         }

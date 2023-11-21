@@ -1,4 +1,5 @@
 <?php
+session_start();
 require "../models/Quote.php";
 require "../helpers/Database.php";
 require "../views/manage_quote_form.php";
