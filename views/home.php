@@ -33,7 +33,7 @@
     <div class="row d-flex flex-wrap justify-content-center">
       <div class="col-md-3">
         <div class="card mb-4">
-          <img src="../assets/img/sdb.jpg" class="card-img-top" alt="salle d'eau">
+          <img src="../assets/img/uploads/toilette101.jpg" class="card-img-top" alt="salle d'eau">
           <div class="card-body">
             <h5 class="card-title">Salle d'eau</h5>
             <p class="card-text">Installation d'une douche à la place d'une baignoire..</p>
@@ -43,7 +43,7 @@
       </div>
       <div class="col-md-3">
         <div class="card mb-4">
-          <img src="../assets/img/chambre.jpg" class="card-img-top" alt="chambre">
+          <img src="../assets/img/uploads/chambre.jpg" class="card-img-top" alt="chambre">
           <div class="card-body">
             <h5 class="card-title">Chambre</h5>
             <p class="card-text">Aménagement rangements sur mesure, chambre..</p>
@@ -53,7 +53,7 @@
       </div>
       <div class="col-md-3">
         <div class="card mb-4">
-          <img src="../assets/img/cuisine.jpg" class="card-img-top" alt="cuisine">
+          <img src="../assets/img/uploads/cuisine103.jpg" class="card-img-top" alt="cuisine">
           <div class="card-body">
             <h5 class="card-title">Cuisine</h5>
             <p class="card-text">Cuisine adaptée en fonction des murs et des fenêtres..</p>
@@ -63,7 +63,7 @@
       </div>
       <div class="col-md-3">
         <div class="card mb-4">
-          <img src="../assets/img/couloir.jpg" class="card-img-top" alt="couloir">
+          <img src="../assets/img/uploads/couloir100.jpg" class="card-img-top" alt="couloir">
           <div class="card-body">
             <h5 class="card-title">Couloir</h5>
             <p class="card-text">Utilisation des poutres pour créer des placards..</p>

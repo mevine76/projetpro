@@ -45,22 +45,22 @@
             <li class="nav-item">
               <a class="nav-link" href="../../controllers/controller_quote_form.php">Demande devis</a>
             </li>
-            <?php if (isset($_SESSION['admin_id'])){ ?>
-              <li class="nav-item">
-              <a class="nav-link" href="../../controllers/controller_manage_quote_form.php">DomPapa</a>
-            </li>
-            <?php } ?>
-            <?php if (isset($_SESSION['admin_id'])){ ?>
-              <li class="nav-item">
-              <a class="nav-link" href="../../controllers/controller_upload_form.php">Krupnik</a>
-            </li>
-            <?php } ?>
             <li class="nav-item">
               <a class="nav-link" href="../../controllers/controller_contact.php">Contact</a>
             </li>
             <?php if (isset($_SESSION['admin_id'])){ ?>
               <li class="nav-item">
-              <a class="nav-link" href="../../controllers/controller_disconnect.php">Déco</a>
+              <a class="nav-link text-danger" href="../../controllers/controller_manage_quote_form.php">Devis</a>
+            </li>
+            <?php } ?>
+            <?php if (isset($_SESSION['admin_id'])){ ?>
+              <li class="nav-item">
+              <a class="nav-link text-white" href="../../controllers/controller_upload_form.php">Images</a>
+            </li>
+            <?php } ?>
+            <?php if (isset($_SESSION['admin_id'])){ ?>
+              <li class="nav-item">
+              <a class="nav-link text-success" href="../../controllers/controller_disconnect.php">Déco</a>
             </li>
             <?php } ?>
             <li class="nav-item">

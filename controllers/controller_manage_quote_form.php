@@ -3,6 +3,7 @@ session_start();
 require "../models/Quote.php";
 require "../helpers/Database.php";
 require "../views/manage_quote_form.php";
+require "../views/confirmation.php";
 
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
@@ -19,7 +20,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $quote_id = $_POST['quote_id'];
         $updateQuote = updateQuote($db, $quote_id);
         if ($updateQuote) {
-            header('Location: ../confirmation.php');
+            header('Location: ../views/confirmation.php');
             exit();
         } else {
             echo "Erreur lors de la mise à jour du devis.";
@@ -29,7 +30,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $quote_id = $_POST['quote_id'];
         $deleteQuote = deleteQuote($db, $quote_id);
         if ($deleteQuote) {
-            header('Location: ../confirmation.php');
+            header('Location: ../views/confirmation.php');
             exit();
         } else {
             echo "Erreur lors de la suppression du devis.";

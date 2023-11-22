@@ -1,7 +1,7 @@
 <?php include_once 'templates/head.php'; ?>
 <form action="../controllers/controller_upload_form.php" method="post" enctype="multipart/form-data">
     <label for="image">Sélectionnez une image :</label>
-    <input type="file" name="image" id="image" accept="image/*">
+    <input type="file" name="images[]" id="images" accept="image/*" multiple>
     
     <label for="category">Choisissez la catégorie :</label>
     <select name="category" id="category">

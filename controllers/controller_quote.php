@@ -4,6 +4,7 @@ session_start();
 require "../models/Quote.php";
 require "../helpers/Database.php";
 require "../views/quote_form.php";
+require "../views/confirmation.php";
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Récupérer les données du formulaire
