@@ -47,6 +47,11 @@
             </li>
             <?php if (isset($_SESSION['admin_id'])){ ?>
               <li class="nav-item">
+              <a class="nav-link" href="../../controllers/controller_manage_quote_form.php">DomPapa</a>
+            </li>
+            <?php } ?>
+            <?php if (isset($_SESSION['admin_id'])){ ?>
+              <li class="nav-item">
               <a class="nav-link" href="../../controllers/controller_upload_form.php">Krupnik</a>
             </li>
             <?php } ?>
