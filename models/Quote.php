@@ -1,6 +1,7 @@
 <?php
 function insertQuote($db)
 {
+    try { 
     // On insère le nouveau devis dans la base de données après vérifications
     $stmt = $db->prepare('INSERT INTO quote (lastname, firstname, mail_address, email_address, phone_number, surface, society, work_type, work_description, submission_date)
     VALUES
@@ -18,8 +19,18 @@ function insertQuote($db)
     $stmt->bindParam(':submission_date', $currentDate, PDO::PARAM_STR);
 
     $addQuote = $stmt->execute();
-    return $addQuote;
+    if ($addQuote) {
+        echo "Le devis a été ajouté avec succès.";
+    } else {
+        echo "Erreur lors de l'ajout du devis.";
+        print_r($stmt->errorInfo()); // Affichez les informations sur l'erreur SQL
+    }
+
+} catch (PDOException $e) {
+    echo "Erreur PDO : " . $e->getMessage();
 }
+}
+
 ?>
 
 <?php

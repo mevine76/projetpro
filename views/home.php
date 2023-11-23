@@ -33,7 +33,7 @@
     <div class="row d-flex flex-wrap justify-content-center">
       <div class="col-md-3">
         <div class="card mb-4">
-          <img src="../assets/img/uploads/toilette101.jpg" class="card-img-top" alt="salle d'eau">
+          <img src="../assets/img/uploads/toilettes101.jpg" class="card-img-top" alt="salle d'eau">
           <div class="card-body">
             <h5 class="card-title">Salle d'eau</h5>
             <p class="card-text">Installation d'une douche à la place d'une baignoire..</p>

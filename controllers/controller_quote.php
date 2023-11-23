@@ -1,22 +1,27 @@
 <?php
 session_start();
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
 
 require "../models/Quote.php";
 require "../helpers/Database.php";
+var_dump($db);
+
 require "../views/quote_form.php";
 require "../views/confirmation.php";
-
+require "../helpers/Form.php";
+var_dump($_POST);
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Récupérer les données du formulaire
-    $lastname = $_POST['lastname'];
-    $firstname = $_POST['firstname'];
-    $mail_address = $_POST['mail_address'];
-    $email_address = $_POST['email_address'];
-    $phone_number = $_POST['phone_number'];
-    $surface = $_POST['surface'];
-    $society = $_POST['society'];
-    $work_type = $_POST['work_type'];
-    $work_description = $_POST['work_description'];
+    $lastname = Form::safeData($_POST['lastname']);
+    $firstname = Form::safeData($_POST['firstname']);
+    $mail_address = Form::safeData($_POST['mail_address']);
+    $email_address = Form::safeData($_POST['email_address']);
+    $phone_number = Form::safeData($_POST['phone_number']);
+    $surface = Form::safeData($_POST['surface']);
+    $society = Form::safeData($_POST['society']);
+    $work_type = Form::safeData($_POST['work_type']);
+    $work_description = Form::safeData($_POST['work_description']);
     $addQuote = insertQuote($db);
     var_dump($addQuote);
     
